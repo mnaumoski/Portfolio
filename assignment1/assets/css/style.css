@@ -116,7 +116,7 @@ nav a:first-child {
 	width: 100%;
 	max-width: 270px;
 	float: right;
-	border: 1 px solid #ddd;
+	border: 1px solid #ddd;
 	margin-bottom: 20px;
 }
 
@@ -219,7 +219,64 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+/*index*/
 
+@media screen and (max-width: 980px) {
+
+	body {
+		background-color: #333;
+	}
+
+	.wrapper {
+		width: 900px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-color: #333;
+	}
+
+	.wrapper {
+		width: 700px;
+	}
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+	#logo {
+		width: 100%;
+	}
+	#main-container {
+		/*display: inline-block*/;
+	}
+	.main-section {
+		/*margin: 35px;*/
+		
+	}
+	nav {
+		width: 100%;
+		text-align: center;
+	}
+	header {
+		position: static;
+	}
+	body {
+		background: url('pink_rice.png');
+		
+	}
+
+	.sidebar {
+		width: auto;
+
+	}
+	#connect {
+		width: 100%;
+	}
+}
 
 
 
